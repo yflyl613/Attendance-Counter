@@ -18,7 +18,7 @@ module.exports = defineConfig({
     config
       .plugin('html')
       .tap(args => {
-        args[0].title = 'Sign-In Counter'
+        args[0].title = 'Attendance Counter'
         return args
       })
   }

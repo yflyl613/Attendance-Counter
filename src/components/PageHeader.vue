@@ -1,8 +1,8 @@
 <template>
   <el-container class="container">
     <el-header style="width: 100%"
-      ><div class="header">Sign-In Counter</div>
-      <div class="flag">A dummy tool built by yy</div>
+      ><div class="header">Attendance Counter</div>
+      <div class="flag">A gadget built by yy</div>
     </el-header>
   </el-container>
 </template>

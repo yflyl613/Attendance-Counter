@@ -45,7 +45,9 @@
       status="warning"
       color="#85ce61"
     />
-    <div class="prompt"><span>Click the missing cell with content</span></div>
+    <div class="prompt">
+      <span>Click these missing cells with content</span>
+    </div>
     <div class="viewer">
       <el-image :src="imageURL" fit="contain" style="height: 100%" />
     </div>
@@ -108,7 +110,7 @@
     </div>
   </div>
   <div v-if="showResult" style="height: 700px">
-    <div class="result"><span>Counting Result</span></div>
+    <div class="result"><span>Result</span></div>
     <el-table
       style="height: 100%"
       class="result_table"
